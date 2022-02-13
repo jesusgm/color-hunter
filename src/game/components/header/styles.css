@@ -1,0 +1,35 @@
+.header{
+    height: 80px;
+    background:#2B50AA;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+    color: #F5F0F6;
+}
+
+.header .title{
+    text-transform: capitalize;
+    font-size: 24px;
+}
+
+.header .scores{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+}
+
+.header .lives{
+    display: flex;
+    gap: .5rem;
+}
+
+.header .lives svg{
+    width: 2rem;
+    color: #999;
+}
+
+.header .lives svg.active{
+    color: red
+}

@@ -1,0 +1,10 @@
+.level{
+    display: grid;
+    height: 100%;
+    gap: 2rem;
+    padding: 1rem
+}
+
+.level .circle{
+    border-radius: 100%;
+}

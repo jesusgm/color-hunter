@@ -1,0 +1,14 @@
+
+*, *::after, *::before{
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root{
+  height: 100vh;
+}
+
+body {
+  margin: 0;
+}

@@ -1,0 +1,13 @@
+.game{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.game-content{
+  width:calc(100vh - 80px);/* luck: header has a fixed height , remove it */
+  max-width:100vw;/* stay within the window */
+  max-height:100vw;/* stay within the window */
+  margin:0 auto;
+  flex:1;
+}
