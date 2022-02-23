@@ -7,4 +7,5 @@
 
 .level .circle{
     border-radius: 100%;
+    cursor: pointer;
 }
