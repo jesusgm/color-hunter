@@ -1,6 +1,7 @@
 {
   "name": "color-hunter",
   "version": "0.1.0",
+  "homepage": "https://jesusgm.github.io/color-hunter/",
   "private": true,
   "dependencies": {
     "react": "17.0.2",
